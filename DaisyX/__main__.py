@@ -72,14 +72,14 @@ I am Asanga'Number one Bot
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="🚀 INFO ME 🚀", callback_data="aboutmanu_"),
     ],
     [
-        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
+        InlineKeyboardButton(text="❓ MY Help & Commands ❓", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Daisy to your group 💫", url="t.me/asanga_bot?startgroup=true"
+            text="💫 Add ASANGA to your group 💫", url="t.me/asanga_bot?startgroup=true"
         ),
     ],
 ]
