@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm Hoy Are YOU [Asanga Udara](https://telegra.ph/file/7dc6e8ffbdc11f629e438.jpg)
+Hello there, I'm Hoy Are YOU im fine ad huuuu[Asanga Udara](https://telegra.ph/file/7dc6e8ffbdc11f629e438.jpg)
 
 I am Asanga'Number one Bot
 
