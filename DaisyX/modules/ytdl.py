@@ -98,7 +98,7 @@ async def download_video(v_url):
     time.time()
     if song:
         await lmao.edit(
-            f"`Preparing to upload song:`\
+            f"`Preparing to upload song Pleas Wait Munite:`\
         \n**{ytdl_data['title']}**\
         \nby *{ytdl_data['uploader']}*"
         )
