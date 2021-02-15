@@ -22,7 +22,7 @@ async def download_video(v_url):
     """ For .ytdl command, download media from YouTube and many other sites. """
     url = v_url.pattern_match.group(2)
     type = v_url.pattern_match.group(1).lower()
-    lmao = await v_url.reply("`Preparing to download...`")
+    lmao = await v_url.reply("`Preparing to download...Pleas Wait`")
     if type == "audio":
         opts = {
             "format": "bestaudio",
@@ -63,7 +63,7 @@ async def download_video(v_url):
         song = False
         video = True
     try:
-        await lmao.edit("`Fetching data, please wait..`")
+        await lmao.edit("`Fetching data, please wait Bro...`")
         with YoutubeDL(opts) as ytdl:
             ytdl_data = ytdl.extract_info(url)
     except DownloadError as DE:
@@ -117,7 +117,7 @@ async def download_video(v_url):
         os.remove(f"{ytdl_data['id']}.mp3")
     elif video:
         await lmao.edit(
-            f"`Preparing to upload video:`\
+            f"`Preparing to upload video Pleas Wait Bro...:`\
         \n**{ytdl_data['title']}**\
         \nby *{ytdl_data['uploader']}*"
         )
