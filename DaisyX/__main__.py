@@ -26,7 +26,7 @@ from telegram.error import (
 )
 from telegram.ext import (
     CallbackContext,
-    CallbackQueryHandler,
+    CallbackQueryHaer,
     CommandHandler,
     Filters,
     MessageHandler,
@@ -72,14 +72,14 @@ I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managi
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="🚀 ME INFO 🚀", callback_data="aboutmanu_"),
     ],
     [
-        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
+        InlineKeyboardButton(text="❓MY Help & Commands ❓", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Daisy to your group 💫", url="t.me/asanga_bot?startgroup=true"
+            text="💫 Add Asanga to your group 💫", url="t.me/asanga_bot?startgroup=true"
         ),
     ],
 ]
