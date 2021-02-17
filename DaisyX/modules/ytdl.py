@@ -63,7 +63,7 @@ async def download_video(v_url):
         song = False
         video = True
     try:
-        await lmao.edit("`Fetching data, please wait..`")
+        await lmao.edit("`Poddak Hitam Kollooo....`")
         with YoutubeDL(opts) as ytdl:
             ytdl_data = ytdl.extract_info(url)
     except DownloadError as DE:
@@ -98,7 +98,7 @@ async def download_video(v_url):
     time.time()
     if song:
         await lmao.edit(
-            f"`Preparing to upload song:`\
+            f"`Upload Wenagaman Thiyenne Hadissi Wenna Epaa....`\
         \n**{ytdl_data['title']}**\
         \nby *{ytdl_data['uploader']}*"
         )
